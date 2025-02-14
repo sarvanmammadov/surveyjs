@@ -1,0 +1,79 @@
+/* style.css */
+
+.exam-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .exam-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .exam-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    cursor: pointer;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .exam-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .exam-item span {
+    font-size: 1.2em;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .exam-item button {
+    background-color: #e74c3c;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .exam-item button:hover {
+    background-color: #c0392b;
+  }
+  
+  .survey-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .survey-title {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .survey-container .sv_main {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .survey-container .sv_question {
+    margin-bottom: 20px;
+  }
+  

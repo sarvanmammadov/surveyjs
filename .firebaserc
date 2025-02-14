@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "surveyjs-112a1",
+    "prod": "surveyjs-112a1"
+  },
+  "targets": {},
+  "etags": {}
+}
